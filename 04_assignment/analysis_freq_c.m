@@ -29,6 +29,7 @@ s_mag = abs(s_fft);
 final_signal_fft = fft(gau_signal, 256);
 final_signal_mag = abs(final_signal_fft);
 noisy_fft = fft(noise_gaussian, 256);
+
 plot(s_mag);
 subplot(5,1,3)
 stem(s_mag);
