@@ -22,3 +22,4 @@ y_fft = fft(y);
 y_fft_real = abs(y_fft);
 subplot(2, 1, 2);
 plot(y_fft_real);
+plot('Spectrum of Signal');
