@@ -30,7 +30,7 @@
  % Delayed signal.
  x1d = sin(2 * pi * f1 * t);
  subplot(2,3,4);
- plot(sample+20,x1d);
+ plot(sample-20,x1d);
  title('Signal delayed by 20 samples');
  grid on;
  
